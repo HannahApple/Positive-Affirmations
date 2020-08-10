@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     border: solid slategrey 3px;
+    padding: 20px, 40px;
 }
 
 p {
