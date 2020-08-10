@@ -4,7 +4,7 @@ h1 {
     background-color: lightskyblue;
     text-align: center;
     text-transform: uppercase;
-
+    border: solid slategrey 3px;
 }
 
 p {
