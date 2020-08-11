@@ -24,9 +24,15 @@ p {
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 1px solid slategray;
   }
 
   th, td {
     padding: 20px;
+    text-align: center;
+  }
+
+  #table {
+    background-color: rgb(255, 188, 144);
+    
   }
