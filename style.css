@@ -1,5 +1,5 @@
 h1 {
-    font-family: Georgia;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     color: black;
     background-color: rgb(255, 188, 144);
     text-align: center;
@@ -52,5 +52,5 @@ table, th, td {
       height: 200px;
       font-size: 25px;
       text-transform: uppercase;
-      font-family: cursive;
+      font-family: ;
   }
