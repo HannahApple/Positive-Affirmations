@@ -63,4 +63,5 @@ table, th, td {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     width: 80%;
+    background-color: slategray;
   }
