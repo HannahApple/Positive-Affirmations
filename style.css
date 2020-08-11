@@ -12,6 +12,10 @@ h1 {
     
 }
 
+header {
+    width: 50%;
+    align-content: center;
+}
 body {
     background-color: lightskyblue;
 }
