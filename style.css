@@ -14,7 +14,7 @@ h1 {
 }
 
 header {
-    width: 50%;
+    width: 100%;
     align-content: center;
 }
 body {
@@ -26,6 +26,8 @@ p {
     color: black;
     text-align: center;
     margin-top: 30px;
+    background-color: rgba(112, 128, 144, 75%);
+    border: solid black 3px;
 }
 
 table, th, td {
