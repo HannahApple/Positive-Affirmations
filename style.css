@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    background-color: slategray;
+    background-color: rgba(112, 128, 144, 50%);
     text-align: center;
     text-transform: uppercase;
     border: solid black 3px;
