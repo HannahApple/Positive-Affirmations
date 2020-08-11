@@ -28,7 +28,8 @@ p {
     margin-top: 30px;
     background-color: rgba(112, 128, 144, 75%);
     border: solid black 1px;
-    padding-top: 10px;
+    padding-top: 7px;
+    padding-bottom: 5px;
 }
 
 table, th, td {
