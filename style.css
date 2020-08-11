@@ -1,7 +1,7 @@
 h1 {
     font-family: Georgia;
-    color: grey;
-    background-color: lightskyblue;
+    color: black;
+    background-color: rgb(255, 188, 144);
     text-align: center;
     text-transform: uppercase;
     border: solid slategrey 3px;
