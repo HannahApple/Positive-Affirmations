@@ -33,6 +33,6 @@ table, th, td {
   }
 
   #table {
-    background-color: rgb(255, 188, 144);
+    background-color: rgba(255, 188, 144, 50%);
     
   }
