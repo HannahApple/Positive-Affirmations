@@ -1,7 +1,7 @@
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    background-color: rgb(255, 188, 144);
+    background-color: slategray;
     text-align: center;
     text-transform: uppercase;
     border: solid slategrey 3px;
@@ -64,4 +64,5 @@ table, th, td {
     font-family: 'Montserrat', sans-serif;
     width: 80%;
     background-color: slategray;
+    color: whitesmoke;
   }
