@@ -87,11 +87,11 @@ table, td {
 
   button {
     width: 50%;
-    height: 200px;
+    height: 50%;
     font-size: 25px;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    width: 80%;
+    width: 60%;
     background-color: slategray;
     color: rgb(245, 245, 245);
     -webkit-text-stroke: 1px black;
