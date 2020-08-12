@@ -1,19 +1,8 @@
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: black;
-    background-color: rgba(112, 128, 144, 75%);
+    font-family: 'Raleway', sans-serif;
+    color: slategray;
     text-align: center;
     text-transform: uppercase;
-    border: solid black 3px;
-    padding-top: 20px;
-    padding-bottom: 15px;
-    height: 40px;
-    margin-bottom: 10px;
-    font-weight: 800;
-    margin-left: 20%;
-    margin-right: 20%;
-    
-    
 }
 
 header {
@@ -21,15 +10,15 @@ header {
     align-content: center;
 }
 body {
-    background-color: lightskyblue;
+    background-color: rgb(255, 255, 249);
 }
 
 p {
     font-family: sans-serif;
-    color: black;
+    color: slategray;
     text-align: center;
     margin-top: 30px;
-    background-color: rgba(112, 128, 144, 75%);
+    background-color: rgb(197, 145, 0);
     border: solid black 1px;
     padding-top: 7px;
     padding-bottom: 5px;
@@ -55,36 +44,7 @@ table, td {
       height: 200px;
   }
 
-  #a {
-    background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/birth-flower-1558461020.jpg?crop=0.861xw:1.00xh;0,0&resize=640:*")center center no-repeat;
-    background-size: cover;
-  }
-
-  #b {
-    background: url("https://cdn.britannica.com/22/96622-050-0FA84B5C/detail-page-expedition-diary-William-Clark-shrub.jpg")center center no-repeat;
-    background-size: cover;
-  }
-
-  #c {
-    background: url("https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=")center center no-repeat;
-    background-size: cover;
-  }
-
-  #d {
-    background: url("https://purewows3.imgix.net/images/articles/2020_03/calming-pictures-cat.jpg?auto=format,compress&cs=strip")center center no-repeat;
-    background-size: cover;
-  }
-
-  #e {
-    background: url("https://i.pinimg.com/originals/5f/66/58/5f66585599bd8ab5c5566df0aa3f608c.jpg")center center no-repeat;
-    background-size: cover;
-  }
-
-  #f {
-    background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_539043047_2000133320009280369_285351.jpg")center center no-repeat;
-    background-size: cover;
-  }
-
+  
   button {
     width: 50%;
     height: 50%;
