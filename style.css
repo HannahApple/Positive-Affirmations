@@ -35,11 +35,11 @@ p {
     padding-bottom: 5px;
 }
 
-table, th, td {
+table, td {
     border: 1px solid slategray;
   }
 
-  th, td {
+  td {
     padding: 20px;
     text-align: center;
   }
@@ -48,11 +48,6 @@ table, th, td {
     background-color: rgba(255, 255, 255, 0.5);
     margin-left: auto;
     margin-right: auto;
-  }
-
-  th {
-      font-family: Arial, Helvetica, sans-serif;
-      font-weight: bold;
   }
 
   td {
@@ -71,7 +66,7 @@ table, th, td {
     font-family: 'Montserrat', sans-serif;
     width: 80%;
     background-color: slategray;
-    color: whitesmoke;
+    color: rgb(245, 245, 245);
     -webkit-text-stroke: 1px black;
     -webkit-text-fill-color: white;
   }
