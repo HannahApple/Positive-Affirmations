@@ -65,6 +65,26 @@ table, td {
     background-size: cover;
   }
 
+  #c {
+    background: url("https://imgs.classicfm.com/images/61630?width=1000&crop=16_9&signature=UOxsAc4VhzNYQEIG-RTXur_mix8=")center center no-repeat;
+    background-size: cover;
+  }
+
+  #d {
+    background: url("https://purewows3.imgix.net/images/articles/2020_03/calming-pictures-cat.jpg?auto=format,compress&cs=strip")center center no-repeat;
+    background-size: cover;
+  }
+
+  #e {
+    background: url("https://i.pinimg.com/originals/5f/66/58/5f66585599bd8ab5c5566df0aa3f608c.jpg")center center no-repeat;
+    background-size: cover;
+  }
+
+  #f {
+    background: url("https://www.incimages.com/uploaded_files/image/1920x1080/getty_539043047_2000133320009280369_285351.jpg")center center no-repeat;
+    background-size: cover;
+  }
+
   button {
     width: 50%;
     height: 200px;
