@@ -60,6 +60,11 @@ table, td {
     background-size: cover;
   }
 
+  #b {
+    background: url("https://cdn.britannica.com/22/96622-050-0FA84B5C/detail-page-expedition-diary-William-Clark-shrub.jpg")center center no-repeat;
+    background-size: cover;
+  }
+
   button {
     width: 50%;
     height: 200px;
