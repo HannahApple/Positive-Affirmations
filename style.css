@@ -53,9 +53,8 @@ table, td {
   td {
       width: 50%;
       height: 200px;
-      font-size: 25px;
-      text-transform: uppercase;
-      font-family: 'Montserrat', sans-serif;
+      background: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/birth-flower-1558461020.jpg?crop=0.861xw:1.00xh;0,0&resize=640:*")center center no-repeat;
+      background-size: cover;
   }
 
   button {
