@@ -91,3 +91,18 @@ textarea {
   color: rgb(1, 32, 70);
   font-size: 20px;
 }
+
+.logo {
+  font-family: 'Raleway', sans-serif; 
+  color: black;
+  text-transform: uppercase;
+}
+
+li {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: rgb(1, 32, 70);
+}
+
+footer {
+  background-color: slategray;
+}
