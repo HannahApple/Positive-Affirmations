@@ -15,6 +15,11 @@ header {
 
 body {
   background-color: rgba(142, 179, 225, 0.4);
+  z-index: 1;
+}
+
+#flowers {
+  z-index: 2;
 }
 
 p {
