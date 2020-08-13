@@ -69,3 +69,8 @@ td {
 #f {
  background-color: rgb(61, 125, 203);
 }
+
+h2 {
+  font-family: 'Raleway', sans-serif; 
+  text-transform: uppercase;
+}
