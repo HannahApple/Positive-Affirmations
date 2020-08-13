@@ -15,7 +15,6 @@ body {
 }
 
 p {
-  font-family: sans-serif;
   color: black;
   text-align: center;
   margin-top: 30px;
@@ -23,6 +22,7 @@ p {
   border: solid black 1px;
   padding-top: 7px;
   padding-bottom: 5px;
+  font-family: 'Baloo Tamma 2', cursive;
 }
 
 table, td {
@@ -73,4 +73,5 @@ td {
 h2 {
   font-family: 'Raleway', sans-serif; 
   text-transform: uppercase;
+  text-align: center;
 }
