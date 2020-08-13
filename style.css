@@ -3,6 +3,8 @@ h1 {
     color: slategray;
     text-align: center;
     text-transform: uppercase;
+    background-color: rgb(238, 174, 0);
+    border: solid black 1px;
 }
 
 header {
