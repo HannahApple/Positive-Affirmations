@@ -1,25 +1,39 @@
+#flowers {
+  position: relative;
+  background: url("https://www.fiftyflowers.com/blog/wp-content/uploads/iStock-659171982-1170x449.jpg") center center no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: solid rgba(0, 0, 0, 30) 2px;
+}
+
+#flowers:before { 
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 60%);
+
+}
+
+#flowers * {
+  position: relative;
+}
+
 h1 {
   font-family: 'Raleway', sans-serif; 
   color: rgb(1, 32, 70);
   text-align: center;
   text-transform: uppercase;
   font-size: 75px;
-}
-
-header {
-  width: 100%;
-  align-content: center;
-  background-color: rgba(255, 255, 255, 20%);
-  border: solid rgba(0, 0, 0, 30%) 2px;
+  z-index: 2;
 }
 
 body {
   background-color: rgba(142, 179, 225, 0.4);
-  z-index: 2;
-}
-
-#flowers {
-  z-index: 1;
 }
 
 p {
