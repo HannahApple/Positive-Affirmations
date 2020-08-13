@@ -43,8 +43,9 @@ td {
 
 td a {
   text-decoration: none;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: px black;
   -webkit-text-fill-color: white;
+  font-weight: bold;
 }
 
 #table {
