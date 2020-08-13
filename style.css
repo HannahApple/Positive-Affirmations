@@ -75,3 +75,8 @@ h2 {
   text-transform: uppercase;
   text-align: center;
 }
+
+.extra-info {
+  align-content: center;
+  font-family: 'Baloo Tamma 2', cursive;
+}
