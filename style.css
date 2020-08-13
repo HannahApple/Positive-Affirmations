@@ -9,13 +9,10 @@ h1 {
 header {
   width: 100%;
   align-content: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 20%);
   border: solid rgba(0, 0, 0, 30%) 2px;
 }
 
-#flowers {
-  background-color: rgba(255, 255, 255, 20%);
-}
 body {
   background-color: rgba(142, 179, 225, 0.4);
 }
