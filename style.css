@@ -85,3 +85,9 @@ h2 {
 .submission {
   text-align: center;
 }
+
+textarea {
+  font-family: 'Baloo Tamma 2', cursive;
+  color: rgb(1, 32, 70);
+  text-decoration: underline;
+}
