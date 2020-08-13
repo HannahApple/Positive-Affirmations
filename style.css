@@ -108,11 +108,15 @@ textarea {
 .header .logo {
   flex-grow: 1;
   color: rgb(1, 32, 70);
+  font-family: 'Raleway', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .header li {
   display: inline;
   padding-right: 2.22rem;
+  font-family: 'Baloo Tamma 2', cursive;
 }
 
 .header li a {
