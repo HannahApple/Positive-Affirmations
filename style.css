@@ -190,7 +190,8 @@ ul {
 
 li {
   text-align: center;
-  align-content: center;
+  display: block;
+  margin: 0 auto;
 }
 
 #sm {
@@ -247,4 +248,9 @@ li {
   font-size: 25px;
   padding-left: 200px;
   padding-right: 200px;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
 }
