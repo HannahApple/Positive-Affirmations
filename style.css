@@ -36,7 +36,7 @@ body {
   background-color: rgba(142, 179, 225, 0.4);
 }
 
-p {
+#an {
   color: rgb(1, 32, 70);
   text-align: center;
   margin-top: 30px;
@@ -161,4 +161,90 @@ textarea {
   .header .logo {
     flex-grow: 0;
   }
+}
+
+#mm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h3 {
+  text-align: center;
+  color:rgb(1, 32, 70);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+ul {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+}
+
+li {
+  text-align: center;
+  align-content: center;
+}
+
+#sm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#sp {
+  font-size: 20px;
+  color:rgba(1, 32, 70, 60%);
+
+}
+
+#line {
+  width: 50%;
+  align-content: center;
+}
+
+#fm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#movm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#manm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#tm {
+  text-align: center;
+  color:rgba(1, 32, 70, 60%);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
