@@ -102,6 +102,11 @@ td a {
   
 }
 
+td a:hover {
+  color: white;
+  transition: .7s;
+}
+
 #table {
   background-color: rgba(255, 255, 255, 0.5);
   margin-left: auto;
@@ -181,6 +186,11 @@ textarea {
 .header li a {
   text-decoration: none;
   color:rgba(1, 32, 70, 60%);
+}
+
+.header li a:hover{
+  color: rgba(3, 129, 247, 0.904);
+  transition: .5s;
 }
 
 @media only screen and (max-width: 550px) {
