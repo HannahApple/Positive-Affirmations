@@ -8,6 +8,7 @@
   border: solid rgba(0, 0, 0, 30) 2px;
 }
 
+/*white overlay*/
 #flowers:before { 
   position: absolute;
   content: "";
@@ -19,6 +20,7 @@
 
 }
 
+/*text over flowers*/
 #flowers * {
   position: relative;
 }
@@ -32,10 +34,40 @@ h1 {
   z-index: 2;
 }
 
+h2 {
+  font-family: 'Raleway', sans-serif; 
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  color:rgb(1, 32, 70);
+  font-family: 'Baloo Tamma 2', cursive;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+h4 {
+  text-align: center;
+  color:rgb(1, 32, 70);
+  font-family: 'Baloo Tamma 2', cursive;
+}
+
+#random {
+
+ }
+
+#random-img {
+
+}
+
 body {
   background-color: rgba(142, 179, 225, 0.4);
 }
 
+/*author note*/
 #an {
   color: rgb(1, 32, 70);
   text-align: center;
@@ -53,7 +85,7 @@ table, td {
 
 td {
   padding: 20px;
-  text-align: center;
+  text-align: center; 
   width: 50%;
   height: 200px;
   font-family: 'Raleway', sans-serif;  
@@ -63,6 +95,7 @@ td {
   text-decoration: none;
 }
 
+/*links to other pages*/
 td a {
   text-decoration: none;
   color: rgb(1, 32, 70);
@@ -99,12 +132,7 @@ td a {
  background-color: rgb(61, 125, 203);
 }
 
-h2 {
-  font-family: 'Raleway', sans-serif; 
-  text-transform: uppercase;
-  text-align: center;
-}
-
+/*written diary section*/
 .extra-info {
   align-content: center;
   font-family: 'Baloo Tamma 2', cursive;
@@ -115,11 +143,13 @@ h2 {
   text-align: center;
 }
 
+/*text area for written diary*/
 textarea {
   font-family: 'Baloo Tamma 2', cursive;
   color: rgb(1, 32, 70);
   font-size: 20px;
 }
+
 
 .header {
   display: flex;
@@ -172,14 +202,6 @@ textarea {
   padding-right: 200px;
 }
 
-h3 {
-  text-align: center;
-  color:rgb(1, 32, 70);
-  font-family: 'Baloo Tamma 2', cursive;
-  font-size: 25px;
-  padding-left: 200px;
-  padding-right: 200px;
-}
 
 ul {
   text-align: center;
@@ -253,4 +275,50 @@ li {
 iframe {
   display: block;
   margin: 0 auto;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: rgba(142, 179, 225, 0%);
+  color: rgba(1, 32, 70, 60%);
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+  border-radius: 30px;
+}
+
+
+/* Add a background color to the button if it is hovered over*/
+.accordion:hover {
+  background-color: white;
+  text-align: center;
+  padding-left: 25%;
+  transition: 0.8s;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  background-color: rgba(142, 179, 225, 0%);
+  display: none;
+  overflow: hidden;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 30px;
+}
+
+#random-affirmation {
+  font-family: 'Raleway', sans-serif; 
+  color: rgb(1, 32, 70);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+#random-img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
 }
