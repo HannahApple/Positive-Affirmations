@@ -16,9 +16,24 @@ function displayHistory(){
     }
 }
 
+//picture diary
+function updatePicDiary(){
+  var today = new Date();
+  var date = (today.getMonth()+1)+'-'+today.getDate() + '-' + today.getFullYear()
+  var file = document.getElementById("myfile")
+  history.push(date + file.value)
+  file.value = ""
+}
+
+
+
+//written diary
 function updateHistory(){
+    var today = new Date();
+    var date = (today.getMonth()+1)+'-'+today.getDate() + '-' + today.getFullYear()
     var textArea = document.getElementById("extra")
-    history.push(textArea.value)
+    // history.push(textArea.value)
+    history.push(date + ": " + textArea.value)
     displayHistory();
     textArea.value = ""
 }
