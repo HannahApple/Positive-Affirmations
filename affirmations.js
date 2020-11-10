@@ -16,14 +16,64 @@ function displayHistory(){
     }
 }
 
+/*let imgHistory = []
+
+function displayImgHistory(){
+    var ulPic = document.getElementById("pictures-ul");
+
+    // remove old child nodes 
+    while (ulPic.hasChildNodes()) {  
+        ulPic.removeChild(ulPic.firstChild);
+    }
+    // Write new child nodes 
+    for(i=0; i < imgHistory.length; i++){
+        var liPic = document.createElement("li");
+        liPic.appendChild(document.createTextNode(imgHistory[i]));
+        ulPic.appendChild(liPic);
+    }
+} 
+
 //picture diary
 function updatePicDiary(){
   var today = new Date();
   var date = (today.getMonth()+1)+'-'+today.getDate() + '-' + today.getFullYear()
-  var file = document.getElementById("myfile")
-  history.push(date + file.value)
+  var file = document.getElementById("myfile").files[0]
+  var reader  = new FileReader();
+  // it's onload event and you forgot (parameters)
+  reader.onload = function(e)  {
+      var image = document.createElement("img");
+      // the result image data
+      image.src = e.target.result;
+      document.body.appendChild(image);
+   }
+   // you have to declare the file loading
+   reader.readAsDataURL(file);
+}
+  imgHistory.push(date + file.value)
+  displayImgHistory();
   file.value = ""
 }
+
+
+function myFunction() {
+
+  var file = document.getElementById('myfile').files[0];
+  var reader  = new FileReader();
+  // it's onload event and you forgot (parameters)
+  reader.onload = function(e)  {
+      var image = document.createElement("img");
+      // the result image data
+      image.src = e.target.result;
+      document.body.appendChild(image);
+   }
+   // you have to declare the file loading
+   reader.readAsDataURL(file);
+}
+
+*/
+
+
+
 
 
 

@@ -23,6 +23,14 @@
 /*text over flowers*/
 #flowers * {
   position: relative;
+  text-decoration: none;
+  color: rgb(1, 32, 70);
+  transition: .5s;
+}
+
+#flowers *:hover {
+  color: rgb(107, 107, 107);
+  transition: .5s;
 }
 
 h1 {
@@ -32,6 +40,7 @@ h1 {
   text-transform: uppercase;
   font-size: 75px;
   z-index: 2;
+  text-decoration: none;
 }
 
 h2 {
@@ -99,12 +108,13 @@ td {
 td a {
   text-decoration: none;
   color: rgb(1, 32, 70);
+  transition: .5s;
   
 }
 
 td a:hover {
   color: white;
-  transition: .7s;
+  transition: .5s;
 }
 
 #table {
@@ -175,6 +185,7 @@ textarea {
   font-family: 'Raleway', cursive;
   font-size: 40px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .header li {
@@ -183,12 +194,12 @@ textarea {
   font-family: 'Baloo Tamma 2', cursive;
 }
 
-.header li a {
+.header .logo a {
   text-decoration: none;
   color:rgba(1, 32, 70, 60%);
 }
 
-.header li a:hover{
+.header .logo  a:hover{
   color: rgba(3, 129, 247, 0.904);
   transition: .5s;
 }
@@ -295,7 +306,7 @@ iframe {
   text-align: center;
   border: none;
   outline: none;
-  transition: 0.2s;
+  transition: 0.8s;
   border-radius: 30px;
 }
 
