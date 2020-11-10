@@ -37,7 +37,7 @@ function generateAffirmation(){
 let randomImages = [
   "https://wallpapercave.com/wp/RFIhgVw.jpg", 
   "https://i1.wp.com/beachmeter.com/wp-content/uploads/2017/06/Serene_Beaches-Anse-Source-D-Argent-seychelles_shutterstock_301332077f.jpg?fit=1070%2C443&ssl=1", 
-  "https://wallpaperaccess.com/full/913663.jpg", 
+  //"https://wallpaperaccess.com/full/913663.jpg", 
   "https://static.boredpanda.com/blog/wp-content/uuuploads/cute-baby-animals/cute-baby-animals-2.jpg", 
   "https://www.sierraclub.org/sites/www.sierraclub.org/files/styles/sierra_full_page_width/public/2019-11-OpeningShot-ph1-WB.jpg?itok=Kn62Ljo6"
 ]
