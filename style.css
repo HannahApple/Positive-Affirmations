@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 #flowers {
   position: relative;
   background: url("https://www.fiftyflowers.com/blog/wp-content/uploads/iStock-659171982-1170x449.jpg") center center no-repeat;
@@ -177,7 +181,7 @@ textarea {
 }
 
 
-.header {
+footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -190,40 +194,23 @@ textarea {
   border: solid rgba(0, 0, 0, 30%) 2px;
 }
 
-.header .logo {
-  flex-grow: 1;
+.navbar {
   color: rgb(1, 32, 70);
   font-family: 'Raleway', cursive;
-  font-size: 40px;
   text-transform: uppercase;
   text-align: center;
 }
 
-.header li {
-  display: inline;
-  padding-right: 2.22rem;
-  font-family: 'Baloo Tamma 2', cursive;
-}
-
-.header .logo a {
+.logo a {
   text-decoration: none;
   color:rgba(1, 32, 70, 60%);
 }
 
-.header .logo  a:hover{
+.logo  a:hover{
   color: rgba(3, 129, 247, 0.904);
   transition: .5s;
 }
 
-@media only screen and (max-width: 550px) {
-  .header {
-    flex-direction: column;
-  }
-
-  .header .logo {
-    flex-grow: 0;
-  }
-}
 
 #mm {
   text-align: center;

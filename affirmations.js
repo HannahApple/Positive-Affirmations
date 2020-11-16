@@ -10,13 +10,14 @@ function displayHistory(){
     }
     // Write new child nodes 
     for(i=0; i < history.length; i++){
-        var li = document.createElement("li");
-        li.appendChild(document.createTextNode(history[i]));
-        ul.appendChild(li);
+      var li = document.createElement("li");
+      li.appendChild(document.createTextNode(history[i]));
+      ul.appendChild(li);
     }
 }
 
-/*let imgHistory = []
+//picture diary
+let imgHistory = []
 
 function displayImgHistory(){
     var ulPic = document.getElementById("pictures-ul");
@@ -28,54 +29,30 @@ function displayImgHistory(){
     // Write new child nodes 
     for(i=0; i < imgHistory.length; i++){
         var liPic = document.createElement("li");
-        liPic.appendChild(document.createTextNode(imgHistory[i]));
+        const div = document.createElement('div')
+        div.appendChild(document.createTextNode(imgHistory[i].date))
+        var img = document.createElement('img');
+        img.src = imgHistory[i].img
+        img.width = "200"
+        div.appendChild(img)
+        liPic.appendChild(div);
+
         ulPic.appendChild(liPic);
     }
-} 
+}
 
 //picture diary
-function updatePicDiary(){
+function updateImgHistory(){
   var today = new Date();
   var date = (today.getMonth()+1)+'-'+today.getDate() + '-' + today.getFullYear()
-  var file = document.getElementById("myfile").files[0]
-  var reader  = new FileReader();
-  // it's onload event and you forgot (parameters)
-  reader.onload = function(e)  {
-      var image = document.createElement("img");
-      // the result image data
-      image.src = e.target.result;
-      document.body.appendChild(image);
-   }
-   // you have to declare the file loading
-   reader.readAsDataURL(file);
-}
-  imgHistory.push(date + file.value)
+  var img = document.getElementById('output');
+  imgHistory.push({
+    date: date,
+    img: img.src
+  })
   displayImgHistory();
-  file.value = ""
+  img.src = ""
 }
-
-
-function myFunction() {
-
-  var file = document.getElementById('myfile').files[0];
-  var reader  = new FileReader();
-  // it's onload event and you forgot (parameters)
-  reader.onload = function(e)  {
-      var image = document.createElement("img");
-      // the result image data
-      image.src = e.target.result;
-      document.body.appendChild(image);
-   }
-   // you have to declare the file loading
-   reader.readAsDataURL(file);
-}
-
-*/
-
-
-
-
-
 
 //written diary
 function updateHistory(){
@@ -113,6 +90,12 @@ function getRandomImage() {
     randomImg.innerHTML = '<img src="'+randomImages[randomImgGen]+'" />' 
 }
 
+  // User upload image
+  var uploadImage = function(event) {
+    var image = document.getElementById('output');
+    image.src = URL.createObjectURL(event.target.files[0]);
+  };
+
 //written diary submission
 document.addEventListener("DOMContentLoaded", function(){
     var input = document.getElementById("wd");
@@ -148,5 +131,11 @@ document.addEventListener("DOMContentLoaded", function(){
 
     const randomImageButton = document.getElementById("random-img-button")
     randomImageButton.onclick = getRandomImage
+
+    const imageFile = document.getElementById("image-file")
+    imageFile.onchange = uploadImage
+
+    const picDiary = document.getElementById('picture-diary')
+    picDiary.onclick = updateImgHistory
 });
 
