@@ -76,16 +76,9 @@ h4 {
     color: rgb(76, 95, 119);
     cursor: pointer;
   }
-}
-
-#random {
 
 
- }
 
-#random-img {
-
-}
 
 body {
   background-color: rgba(142, 179, 225, 0.4);
@@ -178,6 +171,7 @@ textarea {
   font-family: 'Baloo Tamma 2', cursive;
   color: rgb(1, 32, 70);
   font-size: 20px;
+  border-radius: 15px;
 }
 
 
@@ -325,9 +319,6 @@ iframe {
   text-align: center;
 }
 
-textarea {
-  border-radius: 30px;
-}
 
 #random-affirmation {
   font-family: 'Raleway', sans-serif; 
